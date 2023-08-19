@@ -1,0 +1,26 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Ex01 {
+	public static void main (String[] args) {
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double largura, comprimento, area, metroQuadrado, preco;
+		
+		largura = sc.nextDouble();
+		comprimento = sc.nextDouble();
+		metroQuadrado = sc.nextDouble();
+		
+		area = largura * comprimento;
+		preco = metroQuadrado * area;
+		System.out.println("Largura: " + largura);
+		System.out.println("Comprimento: " + comprimento);
+		System.out.println("Preco em metros quadrados: " + metroQuadrado);
+		System.out.println("Area = " + area);
+		System.out.println("Preco = " + preco);
+		
+		sc.close();
+	}
+}

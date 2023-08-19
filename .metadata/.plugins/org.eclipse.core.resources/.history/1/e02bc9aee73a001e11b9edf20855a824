@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Ex01 {
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		double largura, comprimento, area, metroQuadrado;
+		
+		largura = sc.nextDouble();
+		comprimento = sc.nextDouble();
+		metroQuadrado = sc.nextDouble();
+		
+		area = largura * comprimento;
+		System.out.println("Largura: " + largura);
+		System.out.println("Comprimento: " + comprimento);
+		System.out.println("Preço em metros quadrados: " + metroQuadrado);
+		
+		
+		
+		
+		
+		sc.close();
+	}
+}

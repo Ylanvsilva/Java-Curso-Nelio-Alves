@@ -1,0 +1,27 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Desafio05 {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		int codigoPeca, codigoPeca2;
+		double valorUnitario, valorUnitario2, totalPeca, totalPeca2, total, numeroPeca, numeroPeca2;
+		
+		codigoPeca = sc.nextInt();
+		numeroPeca = sc.nextDouble();
+		valorUnitario = sc.nextDouble();
+		totalPeca = numeroPeca * valorUnitario;
+		
+		codigoPeca2 = sc.nextInt();
+		numeroPeca2 = sc.nextDouble();
+		valorUnitario2 = sc.nextDouble();
+		totalPeca2 = numeroPeca2 * valorUnitario2;
+		
+		total = totalPeca + totalPeca;
+		
+		System.out.printf("Valor total a pagar = %.2f%n", total);
+		
+		sc.close();
+	}
+}

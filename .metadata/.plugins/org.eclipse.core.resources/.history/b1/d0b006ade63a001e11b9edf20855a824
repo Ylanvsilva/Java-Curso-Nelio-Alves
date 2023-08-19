@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Ex01 {
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		double largura, comprimento, area, preco, valorMetroQuadrado;
+		
+		largura = sc.nextDouble();
+		comprimento = sc.nextDouble();
+		
+		area = largura * comprimento;
+		System.out.println("Sua largura é " + largura + " e seu comprimento " + comprimento + " logo a area do seu terreno e de " + area);
+		
+		
+		sc.close();
+	}
+}

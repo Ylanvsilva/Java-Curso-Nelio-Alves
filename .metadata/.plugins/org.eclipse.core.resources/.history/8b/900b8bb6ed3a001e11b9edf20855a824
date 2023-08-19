@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Desafio05 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int codigoPeca, numeroPeca, codigoPeca2, numeroPeca2;
+		double valorUnitario, valorUnitario2, totalPeca, totalPeca2, total;
+		
+		codigoPeca = sc.nextInt();
+		numeroPeca = sc.nextInt();
+		valorUnitario = sc.nextDouble();
+		totalPeca = numeroPeca * valorUnitario;
+		
+		codigoPeca2 = sc.nextInt();
+		numeroPeca2 = sc.nextInt();
+		valorUnitario2 = sc.nextDouble();
+		totalPeca2 = numeroPeca2 * valorUnitario2;
+		
+		total = totalPeca + totalPeca;
+		
+		System.out.println("Valor total a pagar = " + total);
+		
+		sc.close();
+	}
+}

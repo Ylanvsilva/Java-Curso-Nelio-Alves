@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Ex01 {
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int largura, comprimento, area, preco, preco2;
+		
+		largura = sc.nextInt();
+		comprimento = sc.nextInt();
+		
+		area = largura * comprimento;
+		System.out.println(area);
+		
+		sc.close();
+	}
+}
